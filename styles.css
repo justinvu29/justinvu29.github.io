@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #3fddd0;
+    background-color: #00d3c2;
     height: 50px;
   }
   
@@ -38,6 +38,7 @@ h1 {
 
 h2 {
     padding-left: 100px;
+    line-height: 2
 }
 
 body {
@@ -72,20 +73,25 @@ a {
 
   .project {
     display: inline-block;
-    margin: 20px; /* add some space around the project */
-    text-align: center; /* center the project */
-    transition: transform 0.5s; /* add a transition effect */
+    margin: 20px; 
+    text-align: center; 
+    transition: transform 0.5s; 
   }
   
   .project:hover {
-    transform: rotate(360deg); /* rotate the thumbnail when hovered */
+    transform: rotate(360deg); 
   }
   
   .project img {
-    width: 300px; /* set the width of the thumbnail */
+    width: 300px; 
   }
   
   .project p {
-    text-align: center; /* center the label */
-    margin-top: 10px; /* add some space above the label */
+    text-align: center; 
+    margin-top: 10px; 
+  }
+
+  .portTitle {
+    padding: 50px;
+    text-align: center;
   }
