@@ -5,21 +5,21 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #b08968;
+    background-color: #3fddd0;
     height: 50px;
   }
   
   .nav-item {
     display: inline-block;
     font-size: 18px;
-    color: #ede0d4;
+    color: #f8f9fa;
     text-decoration: none;
     padding: 0 20px;
     height: 100%;
     line-height: 50px;
   }
     .nav-item:hover {
-    background-color: #e6ccb2;
+    background-color: #00a799;
     color: white;
   }
   
@@ -32,9 +32,8 @@
 
 
 h1 {
-    color: #7f5539;
+    color: #f8f9fa;
     padding-left: 100px;
-
 }
 
 h2 {
@@ -42,8 +41,8 @@ h2 {
 }
 
 body {
-    background-color: #e6ccb2;
-    font-family: 'Lexend', sans-serif;
+    background-color: #212529;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .section {
@@ -51,6 +50,7 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
+    color: #f8f9fa;
 }
 
 a {
@@ -59,27 +59,33 @@ a {
     font-size: 25px;
     padding-left: 175px;
     text-align: center;
+    color: #f8f9fa;
 
   }
   
   i {
-    color: #333;
+    color: #f8f9fa;
     margin-right: 5px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
   }
 
   .project {
     display: inline-block;
-    margin: 20px; 
-    text-align: center;
+    margin: 20px; /* add some space around the project */
+    text-align: center; /* center the project */
+    transition: transform 0.5s; /* add a transition effect */
+  }
+  
+  .project:hover {
+    transform: rotate(360deg); /* rotate the thumbnail when hovered */
   }
   
   .project img {
-    width: 300px; 
+    width: 300px; /* set the width of the thumbnail */
   }
   
   .project p {
-    text-align: center; 
-    margin-top: 10px; 
+    text-align: center; /* center the label */
+    margin-top: 10px; /* add some space above the label */
   }
